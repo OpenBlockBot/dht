@@ -1,6 +1,6 @@
 {
   "name": "dht",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -27,13 +27,8 @@
       }
     },
     "extensionId": "dht",
-    "supportDevice": [
-        "arduinoUno",
-        "arduinoNano",
-        "arduinoLeonardo",
-        "arduinoMega2560",
-        "arduinoEsp32",
-        "arduinoEsp8266"
+    "arch": [
+      "arduino-*"
     ],
     "iconURL": "./assets/dht.png",
     "description": {
@@ -48,7 +43,9 @@
     "generator": "./src/generator.js",
     "translations": "./src/translations.js",
     "libraries": "./libraries",
-    "tags": ["other"],
+    "tags": [
+      "other"
+    ],
     "helpLink": "https://wiki.openblock.cc"
   },
   "devDependencies": {
